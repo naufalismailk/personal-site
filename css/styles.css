@@ -1,0 +1,53 @@
+/***********************************TAG SELECTORS***********************************/
+
+body { /* selector */
+  background-color: #EAF6F6; /* property: value */
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+hr {
+  border-color: grey; /* background-color: powderblue; */
+  border-style: none;
+  border-width: 5px;
+  border-top-style: dotted; /* border-style: dotted none none; */
+  width:5%;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+
+/***********************************CLASS SELECTORS***********************************/
+.cat {
+  background-color: #66BFBF;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.merge {
+  float:left;
+}
+
+.noline {
+  clear: both;
+  border-style: none;
+}
+
+.riru {
+  height: 180px;
+}
+
+/***********************************ID SELECTORS***********************************/
+#heading {
+  color: blue;
+}
